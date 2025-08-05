@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>네이버 프로필 카드</title>
+    <style>
+        .profile-card {
+          width: 450px;
+          border: 1px solid #ddd;
+          border-radius: 12px;
+          font-family: sans-serif;
+          padding: 16px;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .profile-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .profile-info {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+        }
+
+        .profile-info img {
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          background-color: #eee;
+        }
+
+        .profile-details {
+          display: flex;
+          flex-direction: column;
+          line-height: 1.4;
+        }
+
+        .nickname {
+          font-weight: bold;
+        }
+
+        .email {
+          color: #555;
+          font-size: 0.9em;
+        }
+
+        .meta {
+          margin-top: 10px;
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          font-size: 0.9em;
+        }
+
+        .meta span {
+          padding: 2px 6px;
+          border-radius: 12px;
+        }
+
+        .mail-count {
+          background: #00c73c;
+          color: white;
+          font-weight: bold;
+          font-size: 0.8em;
+          border-radius: 12px;
+          padding: 4px 8px;
+        }
+
+        .tabs {
+          margin-top: 12px;
+          display: flex;
+          justify-content: space-around;
+          border-top: 1px solid #eee;
+          padding-top: 12px;
+          font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile-card">
+    <div class="profile-header">
+        <div class="profile-info">
+            <img src="https://ssl.pstatic.net/static/pwe/address/img_profile.png" alt="프로필사진">
+            <div class="profile-details">
+                <span class="nickname">범버쿵님</span>
+                <span class="email">sunss22@naver.com</span>
+            </div>
+        </div>
+        <button>로그아웃</button>
+    </div>
+
+    <div class="meta">
+        <span>멤버십</span>
+        <span>쪽지 <strong>75</strong></span>
+        <span>● 해피빈</span>
+    </div>
+
+    <div class="tabs">
+        <div><span class="mail-count">999+</span><br>메일</div>
+        <div>카페</div>
+        <div>블로그</div>
+        <div>페이</div>
+    </div>
+</div>
+
+</body>
+</html>
