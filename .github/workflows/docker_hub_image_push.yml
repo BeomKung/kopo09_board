@@ -12,7 +12,7 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     outputs:
-      tag: ${{ steps.vars.outputs.TAG }}   # <- 여기 추가
+      tag: ${{ steps.vars.outputs.TAG }}   # <- 여기 추가.
 
     steps:
       - name: Checkout code
