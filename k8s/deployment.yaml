@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: beomkung/myapp:latest
+          image: beomkung/myapp:TAG-702eae6
           ports:
             - containerPort: 8080
           env:
