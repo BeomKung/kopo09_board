@@ -20,4 +20,10 @@ spec:
             - containerPort: 8080
           env:
             - name: SPRING_DATASOURCE_URL
-              value: jdbc:h2:mem:mydb
+              value: jdbc:mysql://mysql:3306/springdb
+            - name: SPRING_DATASOURCE_USERNAME
+              value: springuser
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: springpass
+            - name: SPRING_DATASOURCE_DRIVER_CLASS_NAME
+              value: com.mysql.cj.jdbc.Driver
