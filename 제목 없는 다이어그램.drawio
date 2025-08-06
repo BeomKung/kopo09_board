@@ -1,9 +1,56 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="페이지-1" id="cVYBOUTR8UqRi0DrtUEM">
-    <mxGraphModel>
+    <mxGraphModel dx="1188" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-2" value="Developer (Git)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-13" value="- git push main&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Vertical%20Container%22%20style%3D%22swimlane%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22260%22%20y%3D%22260%22%20width%3D%22140%22%20height%3D%22130%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="Xa5QugyXu6SLUPLZZSUk-2">
+          <mxGeometry x="10" y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-14" value="- git push manifest&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Vertical%20Container%22%20style%3D%22swimlane%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22260%22%20y%3D%22260%22%20width%3D%22140%22%20height%3D%22130%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="Xa5QugyXu6SLUPLZZSUk-2">
+          <mxGeometry x="10" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xa5QugyXu6SLUPLZZSUk-3" target="Xa5QugyXu6SLUPLZZSUk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-3" value="GitHub Actions (CI/CD)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="300" width="275" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-16" value="- Build Docker Image from Spring Boot app&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Push to DockerHub (beomkung/myapp:TAG)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Update k8s/deployment.yaml (image tag)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Push to manifest branch&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Xa5QugyXu6SLUPLZZSUk-3">
+          <mxGeometry x="15" y="30" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xa5QugyXu6SLUPLZZSUk-10" target="Xa5QugyXu6SLUPLZZSUk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-10" value="ArgoCD(CD도구)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="500" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-21" value="-&amp;nbsp; manifest 브랜치 변경 감지&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp; 변경된 deployment.yaml을 자동 동기화&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Xa5QugyXu6SLUPLZZSUk-10">
+          <mxGeometry x="10" y="30" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-11" value="Kubernetes Cluster (minikube)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="640" width="255" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-24" value="- springboot Deployment -&amp;gt; pod&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- mysql Deployment -&amp;gt; pod&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- PVC for MySQL&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;(→ mysql pod에 마운트)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Service &amp;amp; Ingress 구성&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Xa5QugyXu6SLUPLZZSUk-11">
+          <mxGeometry x="15" y="30" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xa5QugyXu6SLUPLZZSUk-2" target="Xa5QugyXu6SLUPLZZSUk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xa5QugyXu6SLUPLZZSUk-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="512.5" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-26" value="사용자 (Client)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="707.5" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa5QugyXu6SLUPLZZSUk-28" value="HTTP 요청&lt;div&gt;(Ingress -&amp;gt; Spring Boot Pod)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="677.5" width="105" height="42.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
